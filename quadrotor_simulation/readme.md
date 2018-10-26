@@ -30,5 +30,5 @@ control”, IEEE Control Systems, vol. 31, no. 3, pp. 30–51, 2011.
 * _pureAttitude.m_: Main Matlab script for quadrotor attitude dynamics that assigns simulation parameters, runs the simulation ('simAttitudeControl.slx') and plots the results ('plotlab.m')
 * _simAttitudeControl.slx_: Simulink file that includes the quadrotor attitude dynamics and the control system.
                       
-* -reducedAttitudeControllerDesign.m_: Implements the PD control system design method for reduced attitude control, presented in  Bullo et al. 1995.
+* _reducedAttitudeControllerDesign.m_: Implements the PD control system design method for reduced attitude control, presented in  Bullo et al. 1995.
 * _systemBounds.m_: Some calculations on limiting yaw rate for different propeller forces.                        
