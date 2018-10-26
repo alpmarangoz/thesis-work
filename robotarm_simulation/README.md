@@ -3,11 +3,8 @@ This folder includes Matlab - Simulink files related to work presented in Chapte
 The simulation includes simulation programs and control system implentations on two-link and three-link open chain robotic manipulators. Following references are used for formulation of the manipulator dynamics:
 
 * General robotic manipulator modeling: 
- * R. Tedrake, Underactuated robotics: algorithms for walking, running, swimming,
-flying, and manipulation (course notes for mit 6.832), Available at http:
-//underactuated.mit.edu/underactuated.html [28/11/2017].
- * J.-J. E. Slotine and W. Li, Applied nonlinear control, 1. Prentice-Hall Englewood
-Cliffs, NJ, 1991, vol. 199.
+  * R. Tedrake, Underactuated robotics: algorithms for walking, running swimming, flying, and manipulation (course notes for mit 6.832), Available at http://underactuated.mit.edu/underactuated.html [28/11/2017].
+  * J.-J. E. Slotine and W. Li, Applied nonlinear control, 1. Prentice-Hall Englewood Cliffs, NJ, 1991, vol. 199.
 
 
 ***Description of files:***
@@ -29,7 +26,7 @@ Cliffs, NJ, 1991, vol. 199.
 
 * _plotlab.m_: Interactive figure plotter that works on Simulink's simulation log files. The parameters should be logged during the simulation for them to appear in the interactive plot figure. It is an earlier version of the simplotter tool developed vy Arda Aksu (https://www.mathworks.com/matlabcentral/fileexchange/35827-simplotter-plot-tool-for-simulink-log-outputs).
 * _twolinkplot.m_: Dynamic animation for two-link robotic manipulator. It is run by Simulink blocks, if it is enabled from the main file, through "visualFlag" parameter.
-* _postVisualization.m: Re-animates two-link robotic manipulator simulation results. It can be run, while the sim results are present in the Matlab Workspace.
+* _postVisualization.m_: Re-animates two-link robotic manipulator simulation results. It can be run, while the sim results are present in the Matlab Workspace.
 
 
 
